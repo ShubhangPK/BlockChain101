@@ -14,8 +14,8 @@ public class Main{
 	ArrayList<Block> blockchain = new ArrayList<>();
 
  public static void main(String[] args){
-		String[] genesisTransactions = {"Shubhang sent 200 bitcoins to Shreyas","Shreyas sent 409 bitcoins to Shubhang"};
-		String[] Transactions1 = {"Vivek sent 230 bitcoins to Bhavana","Bhavana sent 43 bitcoins to Shubhang","I sent 23 ethereums to Me"};
+		String[] genesisTransactions = {"Hacker1 sent 200 bitcoins to Hacker2","Hacker2 sent 409 bitcoins to Hacker3"};
+		String[] Transactions1 = {"Haker3 sent 230 bitcoins to Hacker1","Hacker2 sent 43 bitcoins to Hacker3","I sent 23 ethereums to Me"};
 	Block genesisBlock =  new Block(0,genesisTransactions);
 	
 	System.out.println(genesisBlock.getBlockHash());
